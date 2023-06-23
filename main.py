@@ -8,5 +8,5 @@ for line in lines:
     res += '<li>' + line + '</li>'
 res += '</ul>'
 os.mkdir('pages')
-with open('pages/page.html', 'w') as f:
+with open('pages/index.html', 'w') as f:
     f.write(res)
